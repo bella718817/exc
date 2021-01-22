@@ -192,7 +192,6 @@ img {
   height: 350px;
   background-color: #f5f5f5;
   position: absolute;
-  float: left;
 }
 
 #section #sectionMain {
@@ -351,12 +350,246 @@ img {
 #news {
   width: 100%;
   height: 308px;
-  background-color: pink;
+  position: absolute;
+  top: 946px;
 }
 
 #news #newsMain {
   width: 1012px;
   height: 308px;
-  background-color: skyblue;
   margin: 0 auto;
+  font-size: 14px;
+}
+
+#news #newsMain .top {
+  width: 100%;
+  height: 30px;
+}
+
+#news #newsMain .middle {
+  width: 100%;
+  height: 224px;
+}
+
+#news #newsMain .middle .left {
+  float: left;
+  margin-right: 10px;
+}
+
+#news #newsMain .middle .m {
+  width: 320px;
+  height: 224px;
+  float: left;
+  border-right: 1px solid #eeeeee;
+}
+
+#news #newsMain .middle .m h2 {
+  height: 27px;
+}
+
+#news #newsMain .middle .m .a1 {
+  height: 40px;
+  line-height: 40px;
+}
+
+#news #newsMain .middle .m p {
+  height: 36px;
+  font-size: 12px;
+  text-indent: 24px;
+  border-bottom: 1px dotted #eee;
+}
+
+#news #newsMain .middle .m .a2 {
+  height: 26px;
+  line-height: 26px;
+}
+
+#news #newsMain .middle .right {
+  margin-left: 10px;
+  text-indent: 10px;
+}
+
+#news #newsMain .middle .right h2 {
+  height: 27px;
+  margin-bottom: 5px;
+}
+
+#news #newsMain .middle .right a {
+  display: inline-block;
+  width: 80px;
+  height: 25px;
+  background-color: orange;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+}
+
+#news #newsMain .middle .right .p1 {
+  margin-top: 10px;
+  height: 41px;
+  line-height: 41px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+#news #newsMain .middle .right .p2 {
+  height: 120px;
+  color: #666;
+}
+
+#news #newsMain .bottom {
+  width: 100%;
+  height: 54px;
+}
+
+#bottom {
+  width: 100%;
+  height: 214px;
+  background-color: #222;
+  position: absolute;
+  top: 1254px;
+}
+
+#bottom #bottomMain {
+  width: 1012px;
+  height: 214px;
+  margin: 0 auto;
+}
+
+#bottom #bottomMain .left {
+  padding-top: 30px;
+  width: 493px;
+  height: 214px;
+  font-size: 12px;
+  float: left;
+}
+
+#bottom #bottomMain .left .s1 {
+  float: left;
+  margin-right: 70px;
+  margin-left: 10px;
+}
+
+#bottom #bottomMain .left .s1 p {
+  width: 48px;
+  height: 36px;
+  color: white;
+}
+
+#bottom #bottomMain .left .s1 a {
+  width: 48px;
+  height: 24px;
+  line-height: 24px;
+  color: #999;
+}
+
+#bottom #bottomMain .left .s2 {
+  float: left;
+  margin-right: 70px;
+}
+
+#bottom #bottomMain .left .s2 p {
+  width: 48px;
+  height: 36px;
+  color: white;
+}
+
+#bottom #bottomMain .left .s2 a {
+  width: 48px;
+  height: 24px;
+  line-height: 24px;
+  color: #999;
+}
+
+#bottom #bottomMain .left .s3 {
+  float: left;
+  margin-right: 70px;
+}
+
+#bottom #bottomMain .left .s3 p {
+  width: 48px;
+  height: 36px;
+  color: white;
+}
+
+#bottom #bottomMain .left .s3 a {
+  width: 48px;
+  height: 24px;
+  line-height: 24px;
+  color: #999;
+}
+
+#bottom #bottomMain .left .s4 {
+  float: left;
+}
+
+#bottom #bottomMain .left .s4 p {
+  width: 48px;
+  color: white;
+  height: 36px;
+}
+
+#bottom #bottomMain .left .s4 a {
+  width: 48px;
+  height: 24px;
+  line-height: 24px;
+  color: #999;
+}
+
+#bottom #bottomMain .right {
+  float: left;
+  padding-top: 10px;
+}
+
+#bottom #bottomMain .right .weix {
+  width: 195px;
+  height: 214px;
+  float: left;
+  margin: 0 auto;
+  margin-left: 120px;
+}
+
+#bottom #bottomMain .right .weix img {
+  margin-left: 20px;
+}
+
+#bottom #bottomMain .right .weix span {
+  text-align: center;
+  width: 100%;
+  display: block;
+  line-height: 18px;
+  font-size: 12px;
+  color: #464646;
+}
+
+#bottom #bottomMain .right .gongz {
+  width: 195px;
+  height: 214px;
+  float: left;
+}
+
+#bottom #bottomMain .right .gongz img {
+  margin-left: 20px;
+}
+
+#bottom #bottomMain .right .gongz span {
+  text-align: center;
+  width: 100%;
+  display: block;
+  line-height: 18px;
+  font-size: 12px;
+  color: #464646;
+}
+
+#footer {
+  width: 100%;
+  height: 44px;
+  position: absolute;
+  top: 1468px;
+  background-color: black;
+  color: #999;
+  font-size: 12px;
+  line-height: 44px;
+  text-align: center;
 }
